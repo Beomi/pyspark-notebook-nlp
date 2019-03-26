@@ -13,3 +13,4 @@ RUN conda install --quiet --yes \
 # Korea NLP Packages
 RUN pip install git+https://github.com/naver/kor2vec.git
 RUN pip install konlpy
+RUN pip install pymysql
